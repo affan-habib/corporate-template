@@ -1,18 +1,18 @@
 <h1 align="center">
-  <a href="https://github.com/smartCoDev0629/coursespace-landing-page-react">
-  Coursespace - React Online Course Landing Page
+  <a href="https://github.com/smartCoDev0629/Gononet-landing-page-react">
+  Gononet - React Online Course Landing Page
   </a>
   <br />
 </h1>
 
 ![screenshot](public/images/image_processing20220419-31825-1yzr3x9.png)
 
-**Coursespace** is a free landing page template built on top of Material UI and fully coded in **React**.
+**Gononet** is a free landing page template built on top of Material UI and fully coded in **React**.
 Simple & light is designed to provide all the basic components using the `sx` prop for a developer need to create landing page for Online Course product.
 
 ## Live Demo
 
-Take a look the live demo here 👉 [https://coursespace.vercel.app/](https://coursespace.vercel.app/)
+Take a look the live demo here 👉 [https://Gononet.vercel.app/](https://Gononet.vercel.app/)
 
 First, run the development server:
 

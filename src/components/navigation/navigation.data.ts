@@ -6,7 +6,7 @@ export const navigations: Navigation[] = [
     path: '#', // '/',
   },
   {
-    label: 'Courses',
+    label: 'What We Do',
     path: 'popular-course', // '/popular-course',
   },
   {
@@ -14,7 +14,15 @@ export const navigations: Navigation[] = [
     path: 'testimonial', // '/testimonial',
   },
   {
-    label: 'Mentor',
+    label: 'Governing Body',
+    path: 'mentors', // '/mentors',
+  },
+  {
+    label: 'Career',
+    path: 'mentors', // '/mentors',
+  },
+  {
+    label: 'Contact Us',
     path: 'mentors', // '/mentors',
   },
 ]

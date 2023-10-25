@@ -2,8 +2,11 @@ import React, { FC } from 'react'
 import Image from 'next/image'
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
+import FacebookIcon from '@mui/icons-material/Facebook'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
 
 import { Mentor } from '@/interfaces/mentor'
+import { IconButton } from '@mui/material'
 
 interface Props {
   item: Mentor
@@ -44,16 +47,20 @@ const MentorCardItem: FC<Props> = ({ item }) => {
             {item.name}
           </Typography>
           <Typography sx={{ mb: 2, color: 'text.secondary' }}>{item.category}</Typography>
-          <Typography sx={{ mb: 2, color: 'text.secondary' }} variant="subtitle1">
-            {item.description}
-          </Typography>
-          <Box sx={{ '& img': { height: 26 } }}>
-            {/* eslint-disable-next-line */}
-            <img src={item.company?.logo} alt={item.company?.name + ' logo'} />
-          </Box>
+
+          {/* Display Material-UI icons for Facebook, LinkedIn, and another social platform */}
+          <div>
+            <IconButton>
+              <FacebookIcon fontSize="small" />
+            </IconButton>
+            <IconButton>
+              <LinkedInIcon fontSize="small" />
+            </IconButton>
+          </div>
         </Box>
       </Box>
     </Box>
   )
 }
+
 export default MentorCardItem
